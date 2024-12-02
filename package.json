@@ -6,7 +6,9 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@bogeychan/elysia-logger": "^0.1.4",
+    "elysia": "latest",
+    "pino": "^9.5.0"
   },
   "devDependencies": {
     "bun-types": "latest"
