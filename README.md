@@ -1,15 +1,3 @@
-# Elysia with Bun runtime
+# MWE for an issue with query parameter parsing in Elysia
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
-
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+This is a reproduction minimum-working-example for https://github.com/elysiajs/elysia/issues/929.
